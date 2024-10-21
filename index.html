@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="#">logo</a>
+    </div>
+    <div class="menu">
+      <a href="#">About us</a>
+      <a href="#">Company</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Landing</a>
+      <a href="#">Our Team</a>
+      <a href="#" onclick="modalOpen()">Register</a>
+    </div>
+  </header>
+    <div class="ortasy">
+      <img src="baha.jpg">
+    <div class="blokk">
+  <div class="blok">
+    <h1>УНИКАЛЬНЫЙ <br>
+      ПОДХОД</h1>
+    <P>Sample text. Click to select the text box. Click again or double click to start editing the text.</P>
+  </div>
+  <div class="blok">
+    <h1>Комплекс услуг</h1>
+    <P>Sample text. Click to select the text box. Click again or double click to start editing the text.</P>
+  </div>
+  <div class="blok">
+    <h1>Наша миссия</h1>
+    <P>Sample text. Click to select the text box. Click again or double click to start editing the text.</P>
+  </div>
+  <div class="blok">
+    <h1>Стратегическое мышление</h1>
+    <P>Sample text. Click to select the text box. Click again or double click to start editing the text.</P>
+  </div>
+  </div>
+
+  
+  <div class="modal">
+    <div class="modal-main">
+         <h1>Sign In</h1>
+         <form action="api/register.php" method="POST">
+             <input type="text" name="email" placeholder="Почта или телефон">
+             <input type="text" name="full_name" placeholder="Полное имя">
+             <input type="text" name="nickname" placeholder="Nickname">
+             <input type="password" name="password" placeholder="Введите пароль">
+             <input type="password" name="password2" placeholder="Подтвердить пароль">
+             <button type="submit">Sign In</button>
+             <p>Dont have an account?</p>
+             <a href="">Sign Up</a>
+         </form>
+    </div>
+    <a class="x" href="" onclick="modalClose()">X</a>
+ </div>
+
+ <script src="index.js"></script>
+  </body>
+ 
+</body>
+</html>

@@ -1,0 +1,236 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8efef;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #676666;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo{
+  padding: 10px 20px;
+  width: 50%;
+  justify-content: center;
+  display: flex;
+ 
+}
+
+.logo a{
+  color: rgb(30, 30, 30);
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  gap: 25px;
+  width: 50%;
+}
+.menu a{
+  color: rgb(42, 40, 40);
+}
+
+.menu a:hover{
+  background-color: gray;
+}
+
+.ortasy{
+  position: relative;
+}
+
+.blokk{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  top: 200px;
+  left: 240px;
+  gap: 20px;
+
+}
+
+.blok{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0px 25px;
+flex-direction: column;
+background-color: #e8d8ac;
+gap: 30px;
+height: 320px;
+width: 200px;
+box-shadow: 3px 3px 3px lightgray;
+}
+
+.blok h1{
+  text-align: center;
+  font-size: 24px;
+}
+
+.blok p{
+  text-align: center;
+  font-size: 16px;
+  color: #676666;
+}
+
+.kara{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.blo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 25px;
+  flex-direction: column;
+  background-color: black;
+  gap: 30px;
+  height: 1000px;
+  width: 1500px;
+  box-shadow: 3px 3px 3px lightgray;
+  }
+  
+  .bl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 25px;
+    flex-direction: column;
+    background-color: #e8d8ac;
+    gap: 30px;
+    height: 320px;
+    width: 200px;
+    box-shadow: 3px 3px 3px lightgray;
+    }
+    
+
+    .modal{
+       width: 100%;
+       display: none;
+       justify-content: center;
+       align-items: center;
+       background-color: rgba(0, 0, 0, 0.4);
+       padding: 30px 0;
+       top: 0;
+       right: 0;
+       left: 0;
+       bottom: 0;
+       position: fixed;
+   }
+   
+   .modal-main{
+       background-color: #fff;
+       width: 800px;
+       height: 500px;
+       border-radius: 30px;
+       padding: 30px;
+   }
+   .modal-main form{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   
+    .x{
+       text-decoration: none;
+       font-weight: bolder;
+       color: #000000;
+       position: absolute;
+       top: 45px;
+       right: 200px;
+       padding: 5px 8px;
+       background-color: #fff;
+       border-radius: 50%;
+    }
+   
+   .modal-main h1{
+       font-size: 50px;
+       color: #e8d8ac;
+       font-weight: 700;
+       text-align: center;
+       margin-bottom: 10px;
+   }
+   .modal-main input{
+       width: 80%;
+       border-radius: 30px;
+       padding: 10px 25px;
+       font-size: 20px;
+       margin-bottom: 10px;
+       outline: none;
+   }
+   
+   .modal-main form button{
+       padding: 10px 0;
+       background-color: #e8d8ac;
+       color: #fff;
+       width: 350px;
+       text-align: center;
+       border-radius: 30px;
+       font-size: 24px;
+       border-color: #e8d8ac;
+       margin-bottom: 30px;
+   }
+   
+   .modal-main a{
+       align-items: center;
+       padding: 10px 0;
+       text-align: center;
+       border-radius: 30px;
+       font-size: 24px;
+   }
+   
+   .modal-main a:hover{
+       color: #e8d8ac;
+       transition: 0.2;
+   }
+   
